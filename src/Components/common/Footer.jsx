@@ -9,7 +9,7 @@ import Logo from "../../assets/Logo/bblogo.jpeg";
 
 
 // Icons
-import { FaInstagram, FaGithub, FaGoogle, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaGithub, FaGoogle, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { SiGeeksforgeeks, SiLeetcode, SiCodechef } from "react-icons/si";
 
 const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
@@ -62,8 +62,8 @@ const Footer = () => {
                   <FaTwitter />
                 </a>
 
-                <a href="https://twitter.com/ExeSandhya" target="_blank" rel="noopener noreferrer">
-                  <FaYoutube />
+                <a href="https://www.linkedin.com/in/sandhya-exe/" target="_blank" rel="noopener noreferrer">
+                  <FaLinkedin />
                 </a>
                 </div>
                 <div className="flex gap-3 text-lg">
