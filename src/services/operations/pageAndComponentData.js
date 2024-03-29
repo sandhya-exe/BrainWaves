@@ -1,4 +1,4 @@
-import {toast} from "react-hot-toast"
+
 import { setProgress } from "../../slices/loadingBarSlice";
 import { apiConnector } from '../apiConnector';
 import { catalogData } from '../apis';
@@ -20,7 +20,7 @@ export const getCatalogaPageData = async(categoryId,dispatch) => {
   }
   catch(error) {
     console.log("CATALOG PAGE DATA API ERROR....", error);
-    toast.error("No Course added to this category yet");
+    // toast.error("No Course added to this category yet");
     result = error.response?.data;
   }
   // toast.dismiss(toastId);
