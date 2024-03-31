@@ -27,23 +27,49 @@ This project is intended as a learning tool and can be used as a sample project 
  dashboard provides charts and visualizations to present data clearly and intuitively. Instructors can monitor the total number of students enrolled in 
  each course, track course performance, and view their income generated from course sales.
 
-  
-***
-## Screenshots
-
-<details>
-  <summary>More screenshots</summary>
-  
-
-</details>
-
-***
 
 ## Important
 * Backend is  in the server folder.
 * First create the categories e.g. web dev, Python, etc. (without categories courses cannot be added). To create categories create an Admin account and go to dashboard then admin panel.
 * To create an Admin account first sign up with a student or instructor account then go to your Database under the users model and change that 'accountType' to 'Admin'.
 
+## Getting Started
+Create env file in root dir.
+```
+REACT_APP_BASE_URL = http://localhost:4000/api/v1  or render backend url
+RAZORPAY_KEY = Razorpay Key ID get from Razorpay website
+```
+
+Create env file in server
+```
+MAIL_HOST = smtp.gmail.com # your mail host
+MAIL_USER = # your email
+MAIL_PASS = # your mail host key
+CORS_ORIGIN = ["http://localhost:3000"]
+
+
+
+JWT_SECRET = "create a JWT secret"
+FOLDER_NAME = "images"  # cloudinary folder name where you want to save images
+FOLDER_VIDEO = "videos" # cloudinary folder name where you want to save videos
+
+
+
+RAZORPAY_KEY = # your razorpay key get from razorpay website Mandatory to run server
+RAZORPAY_SECRET = # your razorpay secret 
+
+
+CLOUD_NAME = # your cloudinary name
+API_KEY = # your cloudinary api key
+API_SECRET = # your cloudinary api secret
+
+CONTACT_MAIL = sangwanhimanshu8443@gmail.com    # Enter your mail, User enquiries will be sent to this mail
+
+
+
+PORT = "4000" # server port number
+MONGODB_URL = # your mongodb url
+```
 
 ## Installation
 
