@@ -14,6 +14,7 @@ This project is intended as a learning tool and can be used as a sample project 
   profiles with ease.
   
 * Courses and Lessons: Instructors can create and edit created courses. Students can enroll in courses, access course materials, and track their progress.
+  
 * Progress Tracking: BrainWaves allows students to track their progress in enrolled courses. They can view completed lessons, scores on quizzes and 
   assignments, and overall course progress.
   
